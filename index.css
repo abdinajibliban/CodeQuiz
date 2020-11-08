@@ -1,0 +1,68 @@
+
+/* header bar  - upper area */
+.timer {
+    float: right;
+}
+
+.topscore{
+    float: left;
+}
+div#main-Body > h1 {
+    border: 3px solid white;
+    border-radius: 20px;
+    color: rgb(56, 105, 103);
+    background-color: white;
+
+}
+#header {
+    display: block;
+    background-color: rgb(87, 156, 153);
+    display: inline-block;
+    width: 98vw;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: 6px;
+}
+
+/* Body Section - Lower area */
+
+body {
+    font-family: 'Broadway' ;
+    color: white;
+    background-color: lightblue;
+}
+
+#main-Body {
+    text-align: center;
+    padding: 12vh;
+}
+
+h4 {
+    padding: 10px 8px 10px 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border: none;
+    background-color: rgb(87, 156, 153);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    font-family: 'Roboto Slab', arial;
+    margin: 4px;
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: rgb(117, 252, 245);
+}
+
+#main{
+    text-align: center;
+}
+
